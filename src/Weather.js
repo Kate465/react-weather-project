@@ -44,9 +44,9 @@ export default function Weather(props) {
         <ul>
           <li>
             <FormattedDate date={weatherData.date} />
-          </li>
-          <li className="text-capitalise">{weatherData.description}</li>
-        </ul>{" "}
+          </li>{" "}
+          <li className="text-capitalize">{weatherData.description}</li>
+        </ul>
         <div className="row mt-3">
           <div className="col-6">
             <div className="clearfix">
