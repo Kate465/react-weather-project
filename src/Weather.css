@@ -28,10 +28,8 @@
   line-height: 64px;
   font-size: 64px;
 }
-.Weather img {
-  height: 64px;
+.Weather canvas {
   display: inline-block;
-  width: 64px;
   margin-right: 5px;
   position: relative;
   top: -20px;
