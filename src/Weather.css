@@ -3,7 +3,7 @@
   font-family: Arial, Helvetica, sans-serif;
   padding: 16px;
   color: rgb(135, 135, 135);
-
+  margin-bottom: 10px;
   border-radius: 4px;
 }
 .Weather h1 {
@@ -27,12 +27,14 @@
   color: rgb(33, 33, 33);
   line-height: 64px;
   font-size: 64px;
+  position: relative;
+  right: -50px;
+  top: -60px;
+  margin-left: 10px;
 }
 .Weather canvas {
   display: inline-block;
-  margin-right: 10px;
-  position: relative;
-  top: 20px;
+  margin-right: 5px;
 }
 
 .Weather .unit {
@@ -41,6 +43,7 @@
   font-weight: 400;
   line-height: 1;
   position: relative;
-  top: -32px;
+  right: -50px;
+  top: -96px;
   margin-left: 2px;
 }

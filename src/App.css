@@ -1,6 +1,7 @@
 .App {
   max-width: 600px;
   margin: 30px auto;
+  padding-bottom: 5px;
 }
 .App footer {
   font-size: 12px;
